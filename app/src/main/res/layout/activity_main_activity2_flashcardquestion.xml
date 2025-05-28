@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2FLASHCARDQUESTION">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="151dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blue_2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="142dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="158dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/blue_2" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/blue" />
+
+        <Button
+            android:id="@+id/buttonFORfalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="FALSE"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            tools:layout_editor_absoluteX="253dp"
+            tools:layout_editor_absoluteY="60dp" />
+
+        <Button
+            android:id="@+id/buttonFORtrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="TRUE"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <Button
+            android:id="@+id/button2FORfalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="false"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+        <Button
+            android:id="@+id/button2FORtrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="TRUE"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <EditText
+            android:id="@+id/edtquestion2"
+            android:layout_width="372dp"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Was Rome built in day?"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <EditText
+            android:id="@+id/edtQuestion3"
+            android:layout_width="374dp"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="was pablo escober one of the most wanted man in history?"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="335dp" />
+
+        <Button
+            android:id="@+id/button3FORfalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:backgroundTint="#03A9F4"
+            android:text="FALSE"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <Button
+            android:id="@+id/button3FORtrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRUE"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="468dp" />
+
+        <EditText
+            android:id="@+id/edtquestion4"
+            android:layout_width="394dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Is ADOLF HITLER one the most hated figures in history?"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="535dp" />
+
+        <Button
+            android:id="@+id/button4FORtrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRUE"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="579dp" />
+
+        <Button
+            android:id="@+id/button5FORfalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FALSE"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="584dp" />
+
+        <EditText
+            android:id="@+id/edtquestion1"
+            android:layout_width="368dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Was Mansa Musa the Richest Man in history"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

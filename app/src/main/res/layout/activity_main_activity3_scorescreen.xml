@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3SCORESCREEN">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backroundimage"
+            android:layout_width="360dp"
+            android:layout_height="618dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.495"
+            app:srcCompat="@drawable/green_b" />
+
+        <Button
+            android:id="@+id/REVIEWbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REVIEW"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="528dp" />
+
+        <Button
+            android:id="@+id/EXITbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            tools:layout_editor_absoluteX="248dp"
+            tools:layout_editor_absoluteY="528dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="111dp"
+            android:layout_height="52dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="92dp"
+            android:layout_height="53dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="87dp"
+            android:layout_height="58dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="116dp"
+            android:layout_height="46dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="393dp" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
